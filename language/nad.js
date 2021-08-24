@@ -1,5 +1,5 @@
 exports.wait = () => {
-	return`*「❗」WAIT KAK*`
+	return`*「 🕹 」WAIT KAK*`
 }
 
 exports.succes = () => {
@@ -7,27 +7,31 @@ exports.succes = () => {
 }
 
 exports.lvlon = () => {
-	return`*「❗」LEVELING ENABLE*`
+	return`*「 🕹 」LEVELING ENABLE*`
 }
 
 exports.lvloff = () => {
-	return`*「❗」LEVELING DISABLE*`
+	return`*「 🕹 」LEVELING DISABLE*`
 }
 
 exports.lvlnul = () => {
-	return`*「❗」LEVELMU MASIH KOSONG*`
+	return`*「 🕹 」LEVELMU MASIH KOSONG*`
 }
 
 exports.lvlnoon = () => {
-	return`*「❗」LEVEL DI GRUB BELUM DI AKTIFKAN*`
+	return`*「 🕹 」LEVEL DI GRUB BELUM DI AKTIFKAN*`
+}
+
+exports.nsfwoff = () => {
+	return`*「 🕹 」NSFW BELUM DI AKTIFKAN*`
 }
 
 exports.noregis = () => {
-	return`*「❗」BELUM VERIFIKASI「❗」*\n\nketik : @verify`
+	return`*「 🕹 」BELUM VERIFIKASI「❗」*\n\nketik : @verify`
 }
 
 exports.baned = () => {
-	return`*「❗」SORRY SORRY AJA NIH BRO, TAPI KAU SUDAH KU BANNED YAHAHAHA HAYUUU :V*`
+	return`*「 🕹 」SORRY SORRY AJA NIH BRO, TAPI KAU SUDAH KU BANNED YAHAHAHA HAYUUU :V*`
 }
 
 exports.premium = (prefix) => {
@@ -46,27 +50,27 @@ exports.stikga = () => {
 }
 
 exports.linkga = () => {
-	return`*「❗」maaf linknya tidak valid kak*`
+	return`*「 🕹 」maaf linknya tidak valid kak*`
 }
 
 exports.groupo = () => {
-	return`*「❗」GROUP ONLY*`
+	return`*「 🕹 」GROUP ONLY*`
 }
 
 exports.ownerb = () => {
-	return`*「❗」OWNER BOT ONLY*`
+	return`*「 🕹 」OWNER BOT ONLY*`
 }
 
 exports.ownerg = () => {
-	return`*「❗」OWNER GROUP ONLY*`
+	return`*「 🕹 」OWNER GROUP ONLY*`
 }
 
 exports.admin = () => {
-	return`*「❗」ADMIN GROUP ONLY*`
+	return`*「 🕹 」ADMIN GROUP ONLY*`
 }
 
 exports.badmin = () => {
-	return`*「❗」BOT HARUS JADI ADMIN*`
+	return`*「 🕹 」BOT HARUS JADI ADMIN*`
 }
 
 exports.bug = () => {
@@ -74,7 +78,7 @@ exports.bug = () => {
 }
 
 exports.wrongf = () => {
-	return`*「🗿」Teks nya mana kak?*`
+	return`*「 🕹 ️」Teks nya mana kak?*`
 }
 
 exports.clears = () => {
@@ -84,10 +88,10 @@ exports.clears = () => {
 exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel) => {
 	return`
 *「 SELAMAT 」*
-\`\`\`➸ *Nama* : ${pushname}\`\`\`
-\`\`\`➸ *Nomor* : wa.me/${sender.split("@")[0]}\`\`\`
-\`\`\`➸ *Xp* : ${getLevelingXp(sender)}\`\`\`
-\`\`\`➸ *Level* : ${getLevel} ➸ ${getLevelingLevel(sender)}\`\`\`
+\`\`\`➸ Nama : ${pushname}\`\`\`
+\`\`\`➸ Nomor : wa.me/${sender.split("@")[0]}\`\`\`
+\`\`\`➸ Xp : ${getLevelingXp(sender)}\`\`\`
+\`\`\`➸ Level : ${getLevel} ➸ ${getLevelingLevel(sender)}\`\`\`
 `}
  
 exports.limitend = (pushname, prefix) => {
@@ -95,7 +99,7 @@ exports.limitend = (pushname, prefix) => {
 *Limit di reset setiap jam 24:00*
 
 \`\`\`Upgrade Premium Bebas Limit\`\`\`
-\`\`\`➸ 20K : 1 Bulan\`\`\`
+\`\`\`➸ 5K : permanen\`\`\`
 \`\`\`Jika berminat silahkan hubungi owner\`\`\`
 \`\`\`Kirim perintah : ${prefix}owner\`\`\`
 `
@@ -104,13 +108,14 @@ exports.limitend = (pushname, prefix) => {
 exports.limitcount = (isPrem, limitCounts) => {
 	return`
 *「 LIMIT COUNT 」*
-sisa limit anda : ${isPrem ? '9999' : `${limitCounts}`}
+sisa limit anda : ${isPrem ? '666' : `${limitCounts}`}
 
 Upgrade premium bosku, biar bebas gunain bot`
 }
 
 exports.uangkau = (pushname, sender, uangkau) => {
-	return`┏━━━━━━━♡ *ATM* ♡━━━━━━━┓
+	return`
+┏━━━━━━◪ REKENING ◪━━━━━━┓
 ┃╭───────────────────
 ┃│➸ NAMA : ${pushname}
 ┃│➸ NOMOR : ${sender.split("@")[0]}
@@ -120,37 +125,53 @@ exports.uangkau = (pushname, sender, uangkau) => {
 }
 
 exports.donasi = () => {
-return`*DONASI KAK*
-Pulsa : 0812-1444-1027
-Gopay : 0855-5924-0360
-Dana : 0855-5924-0360
-Saweria : https://saweria.co/ramlangans
+return`
+◪ DONATE
+│
+├❒ PULSA - DANA
+└❒ 6287776101997
 
-Donasi supaya bot terus update & Aktif`
+Nabi Muhammad SAW bersabda :
+
+والصدقة تطفىء الخطيئة كما تطفىء الماء النار
+
+“Sedekah itu dapat menghapus dosa sebagaimana halnya air memadamkan api.” (HR. Tirmidzi)
+
+◪ Thanks supportnya kawan :)\n`
 }
 
 exports.iklan = (botName, ownerNumbers, ownerName) => {
-return`🔰 -----[ 「 *IKLAN ${botName}* 」 ]----- 🔰
-──────────────────────────────
-◯ *DAFTAR SEWA & BUAT BOT :*
-◯ *SEWA : 25K/GRUP (BULAN)*
-◯ *BUAT : 100K (BISA JADI OWNER)*
-◯ *PEMBAYARAN BISA MELALUI :*
-◯ *OVO, GOPAY, DANA, PULSA+10K*
-──────────────────────────────
-◯ *KEUNTUNGAN SEWA BOT :*
-◯ *1. BISA MEMASUKAN BOT KE GROUP*
-◯ *2. BISA MENGGUNAKAN FITUR PREMIUM*
-◯ *KEUNTUNGAN BUAT BOT :*
-◯ *1. BISA MENJADI OWNER BOT SENDIRI*
-◯ *2. BISA MENGGANTI NAMA BOT SENDIRI*
-◯ *3. BISA MEMBAWA BOT KE GROUP*
-◯ *4. BISA MENGGUNAKAN COMMAND OWNER*
-◯ *5. BISA MENYEWAKAN BOT KEMBALI*
-──────────────────────────────
-◯ *JIKA MINAT IKLAN DIATAS*
-◯ *HARAP HUBUNGI NOMOR DIBAWAH :*
-◯ *wa.me/${ownerNumbers}*
-──────────────────────────────
-🔰 -----[「 *POWERED BY ${ownerName}* 」]----- 🔰`
+return`
+◪ JASA SEWA BOT 
+│
+├❒ SEWA : 5K/GRUP (MINGGU)
+├❒ SEWA : 15K/GRUP (BULAN)
+└❒ SEWA : 50K/GRUP (PERMANEN)
+
+◪ KEUNTUNGAN SEWA BOT 
+│
+├❒ BISA MEMASUKAN BOT KE GROUP
+└❒ BISA MENGGUNAKAN FITUR PREMIUM
+
+◪ JASA BUAT BOT
+│
+├❒ 100K (SCRIPT GRATIS)
+└❒ PEMBAYARAN : DANA ATAU PULSA
+
+◪ KEUNTUNGAN BUAT BOT 
+│
+├❒ BISA MENJADI OWNER BOT SENDIRI
+├❒ BISA MENGGANTI NAMA BOT SENDIRI
+├❒ BISA MEMBAWA BOT KE GROUP
+├❒ BISA MENGGUNAKAN COMMAND OWNER
+└❒ BISA MENYEWAKAN BOT KEMBALI
+
+◪ JASA PEMBUATAN WEBSITE & LANDINGPAGE
+│
+├❒ WEBSITE = 150K Free Hosting & Domain
+└❒ LANDINGPAGE = 50K Free Hosting & Domain
+
+ JIKA MINAT IKLAN DIATAS
+ HARAP HUBUNGI NOMOR DIBAWAH
+ wa.me/+6285945300923 \n`
 }
