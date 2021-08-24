@@ -45,7 +45,22 @@ Siapin alat dan bahannya.
 > aplikasi termux
 > kopi+rokok ;v
 ```
+## Edit disini
+Buka nih [`Ramlan.json`](https://github.com/Ramlan404/babybot/edit/main/settings/Ramlan.json). Apikey Free Tinggal regist [`ZEKS API`](https://api.lolhuman.xyz/login).
+```json
+{
+    "botName": "BABY BOT",
+    "ownerName": "RAMLAN ID",
+    "ownerNumbers": "62855xxxxxxxx",
+    "ZeksApi": "apivinz",
+    "botPrefix": "!",
+    "GrupLimitz": "0",
+    "autor": "MrR4M",
+    "peknem": "BABY-BOT",
+    "CeerTod": "*BABY BOTZ VERIFIED*"
+}
 
+```
 ### CARA INSTALLNYA  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="29px">
 ```bash
 > kalo lu belum punya apk termux, download di playstore
@@ -72,7 +87,7 @@ Ket: Script ini gratis ye Jangan dijual_-
 
 ## SOSIAL MEDIA ADMIN <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="29px">
 
-* [`Youtube Admin`](https://youtube.com/c/RamlanChannel21)
+* [`Youtube Admin`](https://youtube.com/c/RAMLANID)
 * [`Instagram Admin`](https://instagram.com/iamramlan_)
 * [`WhatsApp Admin `](https://wa.me/+6285559240360)
 * [`Group WhatsApp `](https://chat.whatsapp.com/DcSr2e5hLMd7PkufBVymgu)
